@@ -1,0 +1,46 @@
+body{background-color: #bfbed3;}
+			a{text-decoration: none; font-family: 方正藏体简体; font-size: 30pt; background-color: black;}
+			a:visited{color: aqua;}
+			a:hover{color: #e10b2b;}
+			a:active{color: #296939; background: linear-gradient(to bottom, #9796f0, #fbc7d4);}
+			p{
+				color: red;
+				word-spacing: 222px;
+			}
+			/*span{
+				color: #d50000;
+				font-size: 155pt;
+				font-weight: 900;
+				font-family: 华文新魏;
+			}*/
+			#wusang{
+				border: #00C853 3pt solid;
+				font-family: 华文行楷;
+				font-size: 50pt;
+				color: #00c853;
+				background: linear-gradient(to bottom, #9400D3, #4B0082);
+			}
+			span{
+			            text-align:center;
+			            color:#fff;
+						font-size: 128pt;
+			            text-shadow: 1px 1px 1px #ccc,
+			                       0 0 10px #fff,
+			                       0 0 20px #fff,
+			                       0 0 30px #fff,
+			                       0 0 40px #ff00de,
+			                       0 0 70px #ff00de,
+			                       0 0 80px #ff00de,
+			                       0 0 100px #ff00de,
+			                       0 0 150px #ff00de;
+			            transform-style: preserve-3d;
+			            -moz-transform-style: preserve-3d;
+			            -webkit-transform-style: preserve-3d;   
+			            -ms-transform-style: preserve-3d;              
+			            -o-transform-style: preserve-3d;               
+			            animation: run  ease-in-out 9s infinite;
+			            -moz-animation: run  ease-in-out 9s infinite ;  
+			            -webkit-animation: run  ease-in-out 9s infinite;    
+			            -ms-animation: run  ease-in-out 9s infinite;    
+			            -o-animation: run  ease-in-out 9s infinite; 
+			          }
