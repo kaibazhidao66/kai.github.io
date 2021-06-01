@@ -96,7 +96,7 @@ caption{
  }
  #container:hover
  {
-     height:237px;
+     height:245px;
      background-color:azure;
      /*必须设置white-space属性为normal*/
      white-space:normal;
