@@ -1,0 +1,112 @@
+			/*请勿完全抄袭源码，请勿声明自己是原创*/
+			/*主要样式*/
+			html{
+				scroll-behavior: smooth;
+			}
+			body{
+				background: linear-gradient(to bottom, #68645b, #000000);
+			}
+			h2{
+				text-indent: 30px;
+			}
+			h3{
+				color: #64dd17;
+				font-size: 40pt;
+				font-weight: 900;
+				font-family: 宋体,楷体,微软雅黑;
+			}
+			a{
+				color: aqua;
+				text-decoration: none;
+				font-size: 30pt;
+				font-family: 黑体 仿宋 宋体 微软雅黑;
+			}
+			a:hover{
+				color: #fff;
+				background-color: #64dd17;
+			}
+			ul{
+				color: #64dd17;
+				font-size: 35pt;
+			}
+			b{
+				color: ghostwhite;
+			}
+			.juzhong{
+				text-align: center;
+			}
+			/*底部导航条样式*/
+			.ban{
+			    font-size: 20px;
+			    font-weight: 900;
+			    color: darkturquoise;
+			    text-align: center;
+			    float: center;
+			    text-decoration: none;
+			    display: block;
+			}
+			.menu{
+			    width:100%;
+			    height: 48px;
+			    text-align: center;
+			}
+			.menu ul{
+			    width: 1000px;
+			    list-style: none;
+			    margin: 0 auto;
+			}
+			.menu ul li {
+			    float: left;
+			    width: 95px;
+			    height: 48px;
+			    line-height: 48px;
+			    color: #fff;
+			    font-family: 黑体;
+			    font-size: 16px;
+			}
+			.menu ul li{
+			    text-decoration: none;
+			    color: #fff;
+			    display: block;
+			}
+			.menu  ul .split{
+			    width: 17px;
+			}
+			.menu ul li :hover{
+			    color: #284f95;
+			    background-color: #9ec8da;
+			}
+			/*返回顶部样式*/
+			.dingbu{
+				position: fixed;
+				bottom: 50px;
+				right: 50px;
+				width: 50px;
+				height: 50px;
+				border: 1px solid aqua;
+			}
+			/*脉动标志样式*/
+			.pulsing-9 {
+			  width:100px;
+			  height:45px;
+			  position:relative;
+			}
+			.pulsing-9:before,
+			.pulsing-9:after {
+			  content:"";
+			  position:absolute;
+			  inset:0;
+			  background:#000;
+			  box-shadow: 0 0 0 50px;
+			  clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);
+			}
+			
+			.pulsing-9:after {
+			  animation:pl9 1s infinite;
+			  transform:perspective(300px) translateZ(0px)
+			}
+			
+			@keyframes pl9 {
+			  to {transform:perspective(300px) translateZ(100px);opacity:0}
+			}
+			
