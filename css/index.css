@@ -172,6 +172,9 @@ strong{
 p{
 	text-align:center;
 }
+a{
+	color:gray;
+}
 a:hover{
 	color: white;
 }
